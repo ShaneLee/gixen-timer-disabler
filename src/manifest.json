@@ -1,6 +1,6 @@
 {
   "name": "Gixen Timeout Disabler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension to remove the wait time to login on the website gixen",
   "content_scripts": [{
     "matches": ["*://*.gixen.com/*"],

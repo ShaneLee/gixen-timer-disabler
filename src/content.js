@@ -3,5 +3,6 @@
 enable()
 
 function enable() {
-  document.getElementById('gbutton').disabled = false
+  const button = document.getElementById('gbutton')
+  if (!!button) { button.disabled = false }
 }
